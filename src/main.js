@@ -25,10 +25,10 @@ const canvas = document.querySelector("canvas.webgl");
 const scene = new THREE.Scene();
 
 // lighting
-const dirLight = new THREE.DirectionalLight("#F3BA24", 0.5);
+const dirLight = new THREE.DirectionalLight("#c9356e", 0.5);
 dirLight.position.set(2, 2, 2);
 
-const ambientLight = new THREE.AmbientLight("#A3209A", 0.5);
+const ambientLight = new THREE.AmbientLight("#741b47", 0.5);
 scene.add(dirLight, ambientLight);
 
 const geometry = new THREE.IcosahedronGeometry(1, 400);
